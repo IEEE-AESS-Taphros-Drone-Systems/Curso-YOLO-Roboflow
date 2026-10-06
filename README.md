@@ -28,10 +28,10 @@
 
 Este curso oferece uma formação prática e direta sobre como preparar dados e treinar modelos de visão computacional. O conteúdo guia o aluno desde a coleta das imagens até a avaliação da inteligência artificial, abordando:
 
-*   **Preparação de Dados (Roboflow):** Introdução aos conceitos de dataset, upload de arquivos, anotação manual de imagens (criação de *bounding boxes* para classes como "Triangulo_5") e exportação no formato correto.
-*   **Tratamento e Robustez (Machine Learning):** Entendimento prático sobre como evitar o *Overfitting* e a importância do *Data Augmentation* (adição de desfoque, ruído, etc.) para criar novas imagens a partir das existentes e melhorar o aprendizado do modelo.
+*   **Preparação de Dados (Roboflow):** Introdução aos conceitos de dataset, upload de arquivos, anotação manual de imagens e exportação no formato correto.
+*   **Tratamento e Robustez (Machine Learning):** Entendimento prático sobre como evitar o *Overfitting* e a importância do *Data Augmentation* para criar novas imagens a partir das existentes e melhorar o aprendizado do modelo.
 *   **Treinamento de Redes Neurais (YOLO):** Configuração do ambiente em nuvem via Google Colab, instalação do pacote *Ultralytics* via CLI/Python e execução do treinamento utilizando aceleração por GPU.
-*   **Avaliação Analítica:** Interpretação das métricas de desempenho da IA durante as épocas de treinamento, compreendendo a fundo o que significam *Box Loss*, *Precision* (exatidão), *Recall* (revocação) e *mAP50* (Mean Average Precision).
+*   **Avaliação Analítica:** Interpretação das métricas de desempenho da IA durante as épocas de treinamento, compreendendo a fundo o que significam *Box Loss*, *Precision*, *Recall* e *mAP50* (Mean Average Precision).
 
 ---
 
@@ -47,11 +47,10 @@ Este material é uma ponte essencial entre a teoria acadêmica de Inteligência 
 
 ## 📸 Destaques Visuais do Curso
 
-> *Nota de uso: Adicione os prints correspondentes na pasta do repositório e atualize o nome dos arquivos no campo `src=" "` abaixo.*
 
 ### 1. Rotulação e Preparação do Dataset
 <div align="center">
-  <img src="imagem_anotacao_roboflow.png" alt="Processo de anotação no Roboflow" width="800">
+  <img src="imgs/Rotulação.png" alt="Processo de anotação no Roboflow" width="800">
   <br>
   <i>Anotação visual dos objetos e definição de classes na interface do Roboflow. Esta é a matéria-prima do projeto, indicando ao modelo a localização exata e a classificação do que deve ser detectado.</i>
 </div>
