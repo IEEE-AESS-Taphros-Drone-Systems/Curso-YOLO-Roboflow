@@ -1,4 +1,4 @@
-# 🚁 Curso de Visão Computacional: YOLO & Roboflow
+# Curso de Visão Computacional: YOLO & Roboflow
 
 <div align="center">
   <p><b>Aprenda a construir do zero um pipeline de Inteligência Artificial para Detecção de Objetos.</b></p>
@@ -45,7 +45,7 @@ Este material é uma ponte essencial entre a teoria acadêmica de Inteligência 
 
 ---
 
-## 📸 Destaques Visuais do Curso
+##  Destaques Visuais do Curso
 
 
 ### 1. Rotulação e Preparação do Dataset
@@ -58,7 +58,7 @@ Este material é uma ponte essencial entre a teoria acadêmica de Inteligência 
 
 ### 2. Estratégias de Data Augmentation
 <div align="center">
-  <img src="imagem_data_augmentation.png" alt="Configuração de Data Augmentation" width="800">
+  <img src="imgs/augmentations.png" alt="Configuração de Data Augmentation" width="800">
   <br>
   <i>Aplicação de pré-processamento e Data Augmentation para gerar variações no dataset, ensinando o modelo a lidar com diferentes cenários e mitigando o risco de overfitting.</i>
 </div>
@@ -66,7 +66,7 @@ Este material é uma ponte essencial entre a teoria acadêmica de Inteligência 
 
 ### 3. Treinamento e Análise de Métricas no Google Colab
 <div align="center">
-  <img src="imagem_metricas_colab.png" alt="Métricas de Treinamento do YOLO" width="800">
+  <img src="imgs/YOLO_colab.png" alt="Métricas de Treinamento do YOLO" width="800">
   <br>
   <i>Monitoramento do treinamento do modelo YOLO no Google Colab, com foco na análise de época (Epoch), uso de memória da GPU e as métricas vitais de desempenho, como Precision, Recall e Mean Average Precision (mAP).</i>
 </div>
