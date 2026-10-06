@@ -1,56 +1,59 @@
-# 👁️ Curso de Detecção de Objetos com YOLO
+# 🚁 Curso de Visão Computacional: YOLO & Roboflow
 
-Bem-vindo ao repositório oficial do **Curso YOLO** (baseado no material `Curso_YOLO.pdf`). Este projeto tem como objetivo desmistificar e ensinar na prática como utilizar uma das arquiteturas mais rápidas e eficientes para detecção de objetos em tempo real.
+<div align="center">
+  <p><b>Aprenda a construir do zero um pipeline de Inteligência Artificial para Detecção de Objetos.</b></p>
+</div>
 
----
+## 📖 O que este curso ensina?
 
-## 🎯 O que este curso ensina?
+Este curso oferece uma formação prática e direta sobre como preparar dados e treinar modelos de visão computacional. O conteúdo guia o aluno desde a coleta das imagens até a avaliação da inteligência artificial, abordando[cite: 2]:
 
-De maneira direta e prática, este curso guia os alunos desde os conceitos fundamentais de Visão Computacional até a implementação de modelos de Deep Learning. Os principais tópicos abordados incluem:
-
-*   **Fundamentos de Visão Computacional:** Entendimento de como as máquinas processam e interpretam imagens.
-*   **A Arquitetura YOLO (You Only Look Once):** Como o algoritmo divide imagens em grids e prevê bounding boxes (caixas delimitadoras) e probabilidades de classes em uma única passada de rede.
-*   **Preparação de Datasets:** Como anotar imagens e estruturar os dados para o treinamento do modelo.
-*   **Treinamento e Validação:** Passos práticos para treinar seu próprio modelo personalizado para reconhecer objetos específicos.
-*   **Implementação:** Como rodar o modelo treinado em vídeos e imagens para inferência em tempo real.
+*   **Preparação de Dados (Roboflow):** Introdução aos conceitos de dataset, upload de arquivos, anotação manual de imagens (criação de *bounding boxes* para classes como "Triangulo_5") e exportação no formato correto[cite: 2, 54, 91].
+*   **Tratamento e Robustez (Machine Learning):** Entendimento prático sobre como evitar o *Overfitting* e a importância do *Data Augmentation* (adição de desfoque, ruído, etc.) para criar novas imagens a partir das existentes e melhorar o aprendizado do modelo[cite: 74, 82].
+*   **Treinamento de Redes Neurais (YOLO):** Configuração do ambiente em nuvem via Google Colab, instalação do *Ultralytics* e execução do treinamento utilizando aceleração por GPU[cite: 102, 121].
+*   **Avaliação Analítica:** Interpretação das métricas de desempenho da IA durante as épocas de treinamento, compreendendo a fundo o que significam *Box Loss*, *Precision* (exatidão), *Recall* (revocação) e *mAP50* (Mean Average Precision)[cite: 134].
 
 ---
 
 ## 🎓 Contribuição para a Comunidade Acadêmica
 
-Este curso representa uma contribuição valiosa para a comunidade acadêmica e de pesquisa ao:
+Este material é uma ponte essencial entre a teoria acadêmica de Inteligência Artificial e a aplicação prática em engenharia aeroespacial e robótica. Para a comunidade estudantil e membros do laboratório, este curso contribui das seguintes formas:
 
-1.  **Democratizar o Acesso à IA:** Torna algoritmos complexos de Deep Learning acessíveis a estudantes e pesquisadores de diversas áreas (não apenas Ciência da Computação).
-2.  **Apoio a Pesquisas Multidisciplinares:** A detecção de objetos pode ser aplicada em inúmeros projetos de pesquisa, desde a contagem de células na biologia, monitoramento de tráfego na engenharia urbana, até a automação agrícola.
-3.  **Fomento ao Código Aberto:** Incentiva o uso de ferramentas open-source e o compartilhamento de conhecimento, preparando os alunos para contribuírem com a comunidade científica global.
-4.  **Base Prática:** Preenche a lacuna entre a teoria acadêmica e a aplicação prática, permitindo que os alunos desenvolvam projetos reais (TCCs, dissertações e teses) com tecnologias no estado da arte.
-
----
-
-## 📸 Imagens e Demonstrações do Curso
-
-Abaixo estão alguns exemplos práticos dos resultados que você aprenderá a alcançar durante o curso:
-
-*(**Nota:** Substitua os links entre parênteses pelos links reais das imagens do seu drive ou repositório)*
-
-### 1. Detecção em Tempo Real no Trânsito
-![Detecção em Tempo Real - Carros e Pedestres](cole_aqui_o_link_da_imagem_de_transito.png)
-> *Exemplo prático do modelo identificando e classificando múltiplos objetos (carros, semáforos, pedestres) simultaneamente com alta precisão.*
-
-### 2. A Arquitetura da Rede
-![Esquema da Arquitetura YOLO](cole_aqui_o_link_da_imagem_da_arquitetura.png)
-> *Visualização de como o YOLO processa a imagem em uma rede neural convolucional de estágio único.*
-
-### 3. Resultados de Treinamento Customizado
-![Gráfico de Loss e Precisão / Detecção Customizada](cole_aqui_o_link_da_imagem_de_grafico_ou_custom.png)
-> *Métricas de evolução do treinamento e aplicação do modelo em um dataset específico criado no curso.*
+1.  **Capacitação Técnica de Excelência:** Fornece as ferramentas necessárias para que estudantes apliquem visão computacional de ponta em projetos reais de drones (VANTs), possibilitando o desenvolvimento de sistemas de percepção autônoma e reconhecimento de alvos.
+2.  **Rigor e Metodologia Científica:** Ensina as boas práticas fundamentais de pesquisa em IA, como a divisão correta de dados experimentais (70-80% para treino, 10-15% para validação e 10-15% para teste) para garantir que as validações dos projetos sejam cientificamente precisas[cite: 66].
+3.  **Fomento à Autonomia e Inovação:** Desmistifica o "caixa-preta" das redes neurais. Os estudantes deixam de ser apenas operadores de software e passam a entender os cálculos de perda (*loss*) e precisão, ganhando autonomia para otimizar seus próprios modelos de pesquisa[cite: 134].
 
 ---
 
-## 📚 Material de Referência
+## 📸 Destaques Visuais do Curso
 
-O material completo, com toda a teoria aprofundada, códigos e exemplos detalhados, encontra-se no arquivo oficial do curso:
-📄 **`Curso_YOLO.pdf`**
+> *Nota de uso: Adicione os prints correspondentes na pasta do repositório e atualize o nome dos arquivos no campo `src=" "` abaixo.*
+
+### 1. Rotulação e Preparação do Dataset
+<div align="center">
+  <img src="imagem_anotacao_roboflow.png" alt="Processo de anotação no Roboflow" width="800">
+  <br>
+  <i>Anotação visual dos objetos e definição de classes na interface do Roboflow. Esta é a matéria-prima do projeto, indicando ao modelo a localização exata e a classificação do que deve ser detectado[cite: 3].</i>
+</div>
+<br>
+
+### 2. Estratégias de Data Augmentation
+<div align="center">
+  <img src="imagem_data_augmentation.png" alt="Configuração de Data Augmentation" width="800">
+  <br>
+  <i>Aplicação de pré-processamento e Data Augmentation para gerar variações no dataset, ensinando o modelo a lidar com diferentes cenários e mitigando o risco de overfitting[cite: 74, 82].</i>
+</div>
+<br>
+
+### 3. Treinamento e Análise de Métricas no Google Colab
+<div align="center">
+  <img src="imagem_metricas_colab.png" alt="Métricas de Treinamento do YOLO" width="800">
+  <br>
+  <i>Monitoramento do treinamento do modelo YOLO no Google Colab, com foco na análise de época (Epoch), uso de memória da GPU e as métricas vitais de desempenho, como Precision, Recall e Mean Average Precision (mAP)[cite: 134].</i>
+</div>
 
 ---
-*Feito com dedicação para impulsionar a pesquisa e o desenvolvimento tecnológico.*
+
+<div align="center">
+  <p>© 2026 - IEEE AESS UFABC Student Branch</p>
+</div>
